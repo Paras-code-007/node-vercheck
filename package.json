@@ -1,0 +1,36 @@
+{
+  "name": "node-vercheck",
+  "version": "0.0.0",
+  "description": "To check nodejs for a certain nodejs requirement in cli",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "utils"
+  ],
+  "repository": "Paras-code-007/node-vercheck",
+  "keywords": [
+    "nodejs",
+    "nodejs version",
+    "version",
+    "version check",
+    "version check cli"
+  ],
+  "author": {
+    "name": "Paras Arora",
+    "email": "paras.arora0025@gmail.com",
+    "url": "https://twitter.com/paras0025"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clialerting": "^1.0.0",
+    "log-symbols": "^4.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "format": "prettier --write \"./**/*.{js,json}\""
+  }
+}
