@@ -41,6 +41,6 @@ module.exports = (reqdnodeversion, options) => {
     );
     console.log(logSymbol.info + " https://nodejs.org/en/download\n");
 
-    opts.exit && process.exit(1);
+    opts.exit && process.exit(1);   //process exit with code 1 means failure
   }
 };
