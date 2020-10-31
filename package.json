@@ -1,6 +1,6 @@
 {
   "name": "node-vercheck",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "To check nodejs for a certain nodejs requirement in cli",
   "main": "index.js",
   "files": [
